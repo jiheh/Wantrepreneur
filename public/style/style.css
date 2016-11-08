@@ -82,6 +82,12 @@ img {
 	padding-top: 6em;
 	padding-bottom: 15em;
 }
+.homepage-third {
+  background-image: url('journey.jpeg');
+  background-size: cover;
+	padding-top: 6em;
+	padding-bottom: 15em;
+}
 
 .lower-heading, .lower-headline {
   color: white;

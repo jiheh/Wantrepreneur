@@ -75,13 +75,13 @@ export default class HomepageChoices extends React.Component {
             </Row>
           </Grid>
         </div>
-        <div className='homepage-second'>
+        <div className='homepage-third'>
           <Grid>
             <Row className="show-grid">
 
               <Col md={6} mdPush={6} className='rightDivOpeningPage'>
-                <h2 className='lower-heading'><span className='blue-animation'>Be your own boss</span></h2>
-                <h3 className='lower-headline'>Because life's too short to not enjoy it.</h3>
+                <h2 className='lower-heading'><span className='blue-animation'>Start your Journey with Wantrepreneur</span></h2>
+                <h3 className='lower-headline'>Invest in your future.</h3>
               </Col>
               <Col md={6} mdPull={6} className='leftDivOpeningPage'>
 
