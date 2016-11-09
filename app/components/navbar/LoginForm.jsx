@@ -50,7 +50,7 @@ class LoginForm extends React.Component{
       password:'',
       loginAttempts: this.state.logintries++
     });
-
+    console.log(this.state.loginAttempts, "ATTEMPS")
   }
 
 
