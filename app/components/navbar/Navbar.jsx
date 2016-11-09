@@ -58,9 +58,6 @@ class Navigation extends React.Component {
 //
   render() {
     // Material UI styles
-
-
-
     const styles = {
       toolbar: {
         'backgroundColor': 'transparent',
@@ -69,18 +66,14 @@ class Navigation extends React.Component {
       }
     };
     // actions for login/sign form buttons
-    const actions = [
-      ];
-
-
-
+    const actions = [];
     const badgeDisplay = this.props.cart && this.props.cart.length ? "inline" : "none";
 
 // icon components
     const logoutIcon =
 
                     <IconButton tooltip="Log Out" >
-                          <FontIcon className="material-icons"  hoverColor={'#FCFCFC'} onClick={this.props.logoutUser} onTouchTap={this.handleClose}>exit_to_app</FontIcon>
+                          <FontIcon className="material-icons"  hoverColor={'#FCFCFC'} onClick={this.props.logoutUser} onTouchTap={this.handleClose} >exit_to_app</FontIcon>
                     </IconButton>
 
 
