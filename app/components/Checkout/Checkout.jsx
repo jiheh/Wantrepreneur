@@ -25,6 +25,7 @@ export default class extends React.Component {
 
   render() {
     return (
+    <div className='payNowBtn'>
       <StripeCheckout
         stripeKey="pk_test_wwtifCBBiRdj5Gqt39peOmPY"
         name="Wantrepreneur"
@@ -45,6 +46,7 @@ export default class extends React.Component {
           Pay Now
         </button>
       </StripeCheckout>
+    </div>
     );
   }
 }

@@ -36,6 +36,10 @@ img {
   border-style: solid;
 }
 
+.payNowBtn {
+  margin: 2em;
+}
+
 .cart-item {
 	padding-top: 2em
 }
